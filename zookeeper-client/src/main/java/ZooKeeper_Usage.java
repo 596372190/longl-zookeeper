@@ -196,7 +196,7 @@ public class ZooKeeper_Usage implements Watcher {
     public static ZooKeeper zookeeperUsageSimple(){
         ZooKeeper zooKeeper = null;
         try {
-            zooKeeper = new ZooKeeper("8.129.96.243:2181",3000,
+            zooKeeper = new ZooKeeper("8.129.96.243:2181,175.178.87.194:2181,8.129.96.243:2183",3000,
                     new ZooKeeper_Usage());
             System.out.println("zookeeperUsageSimple:"+zooKeeper.getState());
             //Thread.sleep(2000);
