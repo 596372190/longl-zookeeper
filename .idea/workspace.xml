@@ -5,25 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed1762e1-fdcc-4b0c-bb37-0b32e9e8b7ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zookeeper-dubbo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zookeeper-dubbo/src/main/java/com/longl/zk/dubbo/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zookeeper-dubbo/src/main/java/com/longl/zk/dubbo/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zookeeper-dubbo/src/main/java/com/longl/zk/dubbo/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zookeeper-dubbo/src/main/java/com/longl/zk/dubbo/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zookeeper-dubbo/src/main/java/com/longl/zk/dubbo/UserVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zookeeper-dubbo/zookeeper-dubbo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zookeeper-lock/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zookeeper-lock/src/main/java/com/longl/Lock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zookeeper-lock/src/main/java/com/longl/ZookeeperLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zookeeper-lock/src/test/java/com/longl/LockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zookeeper-lock/zookeeper-lock.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zookeeper-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zookeeper-client/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/zookeeper-client/target/" />
     <ignored path="$PROJECT_DIR$/zookeeper-agent/target/" />
     <ignored path="$PROJECT_DIR$/zookeeper-web/target/" />
     <ignored path="$PROJECT_DIR$/zookeeper-dubbo/target/" />
+    <ignored path="$PROJECT_DIR$/zookeeper-lock/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +28,56 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zookeeper-lock/src/main/java/com/longl/Lock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="478">
+              <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+              <folding>
+                <element signature="e#292#293#0" expanded="true" />
+                <element signature="e#321#322#0" expanded="true" />
+                <element signature="e#365#366#0" expanded="true" />
+                <element signature="e#401#402#0" expanded="true" />
+                <element signature="e#432#433#0" expanded="true" />
+                <element signature="e#459#460#0" expanded="true" />
+                <element signature="e#499#500#0" expanded="true" />
+                <element signature="e#531#532#0" expanded="true" />
+                <element signature="e#564#565#0" expanded="true" />
+                <element signature="e#593#594#0" expanded="true" />
+                <element signature="e#638#639#0" expanded="true" />
+                <element signature="e#674#675#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zookeeper-lock/src/main/java/com/longl/ZookeeperLock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="292">
+              <caret line="36" column="33" lean-forward="true" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/zookeeper-lock/src/test/java/com/longl/LockTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8">
+              <caret line="52" column="38" lean-forward="true" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#423#424#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -47,6 +93,8 @@
       <find>testnode</find>
       <find>updateServerNode</find>
       <find>updateNode</find>
+      <find>开始执行业务操作</find>
+      <find>lockpath:/tuling-lock/d:\test.txt0000000104</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -80,9 +128,12 @@
         <option value="$PROJECT_DIR$/zookeeper-dubbo/src/main/java/com/longl/zk/dubbo/Server.java" />
         <option value="$PROJECT_DIR$/zookeeper-client/pom.xml" />
         <option value="$PROJECT_DIR$/zookeeper-dubbo/src/main/java/com/longl/zk/dubbo/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/zookeeper-dubbo/src/main/java/com/longl/zk/dubbo/Client.java" />
         <option value="$PROJECT_DIR$/zookeeper-dubbo/src/main/java/com/longl/zk/dubbo/UserVo.java" />
+        <option value="$PROJECT_DIR$/zookeeper-lock/src/main/java/com/longl/Lock.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/zookeeper-lock/src/test/java/com/longl/LockTest.java" />
+        <option value="$PROJECT_DIR$/zookeeper-lock/src/main/java/com/longl/ZookeeperLock.java" />
       </list>
     </option>
   </component>
@@ -122,63 +173,35 @@
             <path>
               <item name="longl-zookeeper" type="b2602c69:ProjectViewProjectNode" />
               <item name="longl-zookeeper" type="462c0819:PsiDirectoryNode" />
-              <item name="zookeeper-client" type="462c0819:PsiDirectoryNode" />
+              <item name="zookeeper-lock" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="longl-zookeeper" type="b2602c69:ProjectViewProjectNode" />
               <item name="longl-zookeeper" type="462c0819:PsiDirectoryNode" />
-              <item name="zookeeper-client" type="462c0819:PsiDirectoryNode" />
+              <item name="zookeeper-lock" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="longl-zookeeper" type="b2602c69:ProjectViewProjectNode" />
               <item name="longl-zookeeper" type="462c0819:PsiDirectoryNode" />
-              <item name="zookeeper-client" type="462c0819:PsiDirectoryNode" />
+              <item name="zookeeper-lock" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="longl-zookeeper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="longl-zookeeper" type="462c0819:PsiDirectoryNode" />
+              <item name="zookeeper-lock" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="longl-zookeeper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="longl-zookeeper" type="462c0819:PsiDirectoryNode" />
+              <item name="zookeeper-lock" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="longl-zookeeper" type="b2602c69:ProjectViewProjectNode" />
-              <item name="longl-zookeeper" type="462c0819:PsiDirectoryNode" />
-              <item name="zookeeper-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="longl-zookeeper" type="b2602c69:ProjectViewProjectNode" />
-              <item name="longl-zookeeper" type="462c0819:PsiDirectoryNode" />
-              <item name="zookeeper-dubbo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="longl-zookeeper" type="b2602c69:ProjectViewProjectNode" />
-              <item name="longl-zookeeper" type="462c0819:PsiDirectoryNode" />
-              <item name="zookeeper-dubbo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="longl-zookeeper" type="b2602c69:ProjectViewProjectNode" />
-              <item name="longl-zookeeper" type="462c0819:PsiDirectoryNode" />
-              <item name="zookeeper-dubbo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="longl-zookeeper" type="b2602c69:ProjectViewProjectNode" />
-              <item name="longl-zookeeper" type="462c0819:PsiDirectoryNode" />
-              <item name="zookeeper-dubbo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="longl-zookeeper" type="b2602c69:ProjectViewProjectNode" />
-              <item name="longl-zookeeper" type="462c0819:PsiDirectoryNode" />
-              <item name="zookeeper-dubbo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="longl-zookeeper" type="b2602c69:ProjectViewProjectNode" />
@@ -195,7 +218,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1644745893714" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1644762001582" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -221,14 +244,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client">
-    <configuration name="Agent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.longl.Agent" />
-      <module name="zookeeper-agent" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.LockTest.run">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.longl.zk.dubbo.Client" />
       <module name="zookeeper-dubbo" />
@@ -255,6 +271,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LockTest.getLockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="zookeeper-lock" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.longl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.longl" />
+      <option name="MAIN_CLASS_NAME" value="com.longl.LockTest" />
+      <option name="METHOD_NAME" value="getLockTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LockTest.run" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="zookeeper-lock" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.longl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.longl" />
+      <option name="MAIN_CLASS_NAME" value="com.longl.LockTest" />
+      <option name="METHOD_NAME" value="run" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ServerBootUpTest.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="zookeeper-client" />
       <option name="PACKAGE_NAME" value="" />
@@ -265,23 +313,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZkClientTest1.watcherTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="zookeeper-client" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ZkClientTest1" />
-      <option name="METHOD_NAME" value="watcherTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LockTest.run" />
+        <item itemvalue="JUnit.LockTest.getLockTest" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Server" />
         <item itemvalue="JUnit.ServerBootUpTest.main" />
-        <item itemvalue="Application.Agent" />
-        <item itemvalue="JUnit.ZkClientTest1.watcherTest" />
       </list>
     </recent_temporary>
   </component>
@@ -300,7 +338,7 @@
       <workItem from="1644506101103" duration="2133000" />
       <workItem from="1644726059416" duration="10549000" />
       <workItem from="1644739488671" duration="5511000" />
-      <workItem from="1644745197386" duration="1285000" />
+      <workItem from="1644745197386" duration="6389000" />
     </task>
     <task id="LOCAL-00001" summary="feat:测试应用zkClient">
       <created>1644733230810</created>
@@ -316,28 +354,17 @@
       <option name="project" value="LOCAL" />
       <updated>1644742199798</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat:测试应用dubbo-zookeeper">
+      <created>1644747870897</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1644747870898</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ZkClientTest1_modifyTest - 2022.02.13 at 13h 29m 46s.xml">
-      <configuration name="ZkClientTest1.modifyTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ZkClientTest1_modifyTest - 2022.02.13 at 13h 29m 51s.xml">
-      <configuration name="ZkClientTest1.modifyTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ZkClientTest1_deleteTest - 2022.02.13 at 14h 08m 36s.xml">
-      <configuration name="ZkClientTest1.deleteTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ZkClientTest1_readTestZkClient - 2022.02.13 at 14h 09m 53s.xml">
-      <configuration name="ZkClientTest1.readTestZkClient" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ZkClientTest1_watcherTest - 2022.02.13 at 14h 11m 07s.xml">
-      <configuration name="ZkClientTest1.watcherTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ZkClientTest1_watcherTest - 2022.02.13 at 14h 13m 46s.xml">
-      <configuration name="ZkClientTest1.watcherTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ZkClientTest1_watcherTest - 2022.02.13 at 14h 14m 37s.xml">
       <configuration name="ZkClientTest1.watcherTest" configurationId="JUnit" />
     </history-entry>
@@ -350,9 +377,27 @@
     <history-entry file="ServerBootUpTest_main - 2022.02.13 at 15h 34m 34s.xml">
       <configuration name="ServerBootUpTest.main" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LockTest_getLockTest - 2022.02.13 at 19h 03m 08s.xml">
+      <configuration name="LockTest.getLockTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LockTest_getLockTest - 2022.02.13 at 19h 07m 16s.xml">
+      <configuration name="LockTest.getLockTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LockTest_getLockTest - 2022.02.13 at 19h 09m 24s.xml">
+      <configuration name="LockTest.getLockTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LockTest_getLockTest - 2022.02.13 at 19h 13m 16s.xml">
+      <configuration name="LockTest.getLockTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LockTest_run - 2022.02.13 at 19h 14m 12s.xml">
+      <configuration name="LockTest.run" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LockTest_run - 2022.02.13 at 19h 26m 59s.xml">
+      <configuration name="LockTest.run" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34761000" />
+    <option name="totallyTimeSpent" value="39865000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -367,7 +412,7 @@
       <window_info anchor="bottom" id="Spring" order="0" weight="0.3286119" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49966466" visible="true" weight="0.38243628" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49966466" visible="true" weight="0.9575071" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.37252125" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -471,51 +516,76 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat:测试应用zkClient" />
     <MESSAGE value="feat:测试应用agent" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:测试应用agent" />
+    <MESSAGE value="feat:测试应用dubbo-zookeeper" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:测试应用dubbo-zookeeper" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/zookeeper-lock/src/main/java/com/longl/ZookeeperLock.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/zookeeper-lock/src/main/java/com/longl/ZookeeperLock.java</url>
+          <line>62</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/zookeeper-lock/src/test/java/com/longl/LockTest.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/zookeeper-lock/src/main/java/com/longl/ZookeeperLock.java</url>
+          <line>77</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/zookeeper-lock/src/main/java/com/longl/ZookeeperLock.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/zookeeper-lock/src/main/java/com/longl/ZookeeperLock.java</url>
+          <line>73</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/zookeeper-lock/src/main/java/com/longl/ZookeeperLock.java</url>
+          <line>69</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/zookeeper-lock/src/main/java/com/longl/ZookeeperLock.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/zookeeper-lock/src/main/java/com/longl/ZookeeperLock.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/zookeeper-lock/src/main/java/com/longl/ZookeeperLock.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_181/jre/lib/rt.jar!/sun/misc/Unsafe.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="353" column="23" selection-start-line="353" selection-start-column="23" selection-end-line="353" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/LocalJar/org/apache/zookeeper/zookeeper/3.5.5/zookeeper-3.5.5.jar!/org/apache/zookeeper/Watcher.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="97" column="12" selection-start-line="97" selection-start-column="12" selection-end-line="97" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/CountDownLatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-308">
-          <caret line="229" column="16" selection-start-line="229" selection-start-column="16" selection-end-line="229" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/LocalJar/org/apache/zookeeper/zookeeper/3.5.5/zookeeper-3.5.5.jar!/org/apache/zookeeper/ZooDefs.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-284">
-          <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/LocalJar/org/apache/zookeeper/zookeeper/3.5.5/zookeeper-3.5.5.jar!/org/apache/zookeeper/CreateMode.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/LocalJar/org/apache/zookeeper/zookeeper/3.5.5/zookeeper-3.5.5.jar!/org/apache/zookeeper/ClientCnxn.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="1036" column="21" selection-start-line="1036" selection-start-column="21" selection-end-line="1036" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/LocalJar/org/apache/zookeeper/zookeeper-jute/3.5.5/zookeeper-jute-3.5.5.jar!/org/apache/zookeeper/data/Id.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -777,13 +847,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
-          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zookeeper-dubbo/src/main/java/com/longl/zk/dubbo/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -837,6 +900,72 @@
           <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zookeeper-lock/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/LocalJar/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="202" selection-start-line="202" selection-end-line="202" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/LocalJar/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zookeeper-lock/src/main/java/com/longl/Lock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+          <folding>
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#564#565#0" expanded="true" />
+            <element signature="e#593#594#0" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#674#675#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zookeeper-lock/src/main/java/com/longl/ZookeeperLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="36" column="33" lean-forward="true" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zookeeper-lock/src/test/java/com/longl/LockTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8">
+          <caret line="52" column="38" lean-forward="true" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
           </folding>
         </state>
       </provider>
