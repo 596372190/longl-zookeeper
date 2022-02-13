@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="zookeeper-agent" />
         <module name="zookeeper-client" />
+        <module name="zookeeper-dubbo" />
         <module name="zookeeper-web" />
       </profile>
     </annotationProcessing>
@@ -16,6 +17,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="zookeeper-agent" options="-parameters" />
       <module name="zookeeper-client" options="-parameters" />
+      <module name="zookeeper-dubbo" options="-parameters" />
       <module name="zookeeper-web" options="-parameters" />
     </option>
   </component>

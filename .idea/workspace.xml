@@ -5,24 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed1762e1-fdcc-4b0c-bb37-0b32e9e8b7ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/zookeeper-agent/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zookeeper-agent/src/main/java/com/longl/Agent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zookeeper-agent/src/main/java/com/longl/CPUMonitorCalc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zookeeper-agent/src/main/java/com/longl/OsBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zookeeper-client/src/test/java/ServerBootUpTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zookeeper-web/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zookeeper-web/src/main/java/com/logl/web/MainControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zookeeper-dubbo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zookeeper-dubbo/src/main/java/com/longl/zk/dubbo/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zookeeper-dubbo/src/main/java/com/longl/zk/dubbo/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zookeeper-dubbo/src/main/java/com/longl/zk/dubbo/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zookeeper-dubbo/src/main/java/com/longl/zk/dubbo/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zookeeper-dubbo/src/main/java/com/longl/zk/dubbo/UserVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zookeeper-dubbo/zookeeper-dubbo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zookeeper-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zookeeper-client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zookeeper-client/src/main/java/ZooKeeper_Usage.java" beforeDir="false" afterPath="$PROJECT_DIR$/zookeeper-client/src/main/java/ZooKeeper_Usage.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/zookeeper-client/target/" />
     <ignored path="$PROJECT_DIR$/zookeeper-agent/target/" />
     <ignored path="$PROJECT_DIR$/zookeeper-web/target/" />
+    <ignored path="$PROJECT_DIR$/zookeeper-dubbo/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,12 +72,17 @@
         <option value="$PROJECT_DIR$/zookeeper-client/src/test/java/ServerBootUpTest.java" />
         <option value="$PROJECT_DIR$/zookeeper-web/src/main/java/com/longl/web/ZookeeperWebApplication.java" />
         <option value="$PROJECT_DIR$/zookeeper-web/src/main/java/com.longl/ZookeeperWebApplication.java" />
-        <option value="$PROJECT_DIR$/zookeeper-client/pom.xml" />
         <option value="$PROJECT_DIR$/zookeeper-agent/src/main/java/com/longl/Agent.java" />
         <option value="$PROJECT_DIR$/zookeeper-client/src/main/java/ZooKeeper_Usage.java" />
         <option value="$PROJECT_DIR$/zookeeper-web/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/zookeeper-web/src/main/java/com/logl/web/MainControl.java" />
+        <option value="$PROJECT_DIR$/zookeeper-dubbo/src/main/java/com/longl/zk/dubbo/UserService.java" />
+        <option value="$PROJECT_DIR$/zookeeper-dubbo/src/main/java/com/longl/zk/dubbo/Server.java" />
+        <option value="$PROJECT_DIR$/zookeeper-client/pom.xml" />
+        <option value="$PROJECT_DIR$/zookeeper-dubbo/src/main/java/com/longl/zk/dubbo/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/zookeeper-dubbo/src/main/java/com/longl/zk/dubbo/Client.java" />
+        <option value="$PROJECT_DIR$/zookeeper-dubbo/src/main/java/com/longl/zk/dubbo/UserVo.java" />
       </list>
     </option>
   </component>
@@ -97,7 +103,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="950" />
-    <option name="width" value="979" />
+    <option name="width" value="980" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -106,8 +112,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -117,25 +121,88 @@
             </path>
             <path>
               <item name="longl-zookeeper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="longl-zookeeper" type="462c0819:PsiDirectoryNode" />
+              <item name="zookeeper-client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="longl-zookeeper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="longl-zookeeper" type="462c0819:PsiDirectoryNode" />
+              <item name="zookeeper-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="longl-zookeeper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="longl-zookeeper" type="462c0819:PsiDirectoryNode" />
+              <item name="zookeeper-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="longl-zookeeper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="longl-zookeeper" type="462c0819:PsiDirectoryNode" />
+              <item name="zookeeper-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="longl-zookeeper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="longl-zookeeper" type="462c0819:PsiDirectoryNode" />
+              <item name="zookeeper-dubbo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="longl-zookeeper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="longl-zookeeper" type="462c0819:PsiDirectoryNode" />
+              <item name="zookeeper-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="longl-zookeeper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="longl-zookeeper" type="462c0819:PsiDirectoryNode" />
+              <item name="zookeeper-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="longl-zookeeper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="longl-zookeeper" type="462c0819:PsiDirectoryNode" />
+              <item name="zookeeper-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="longl-zookeeper" type="b2602c69:ProjectViewProjectNode" />
+              <item name="longl-zookeeper" type="462c0819:PsiDirectoryNode" />
+              <item name="zookeeper-dubbo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="longl-zookeeper" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1644742057801" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1644745893714" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -154,10 +221,36 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ServerBootUpTest.main">
+  <component name="RunManager" selected="Application.Client">
     <configuration name="Agent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.longl.Agent" />
       <module name="zookeeper-agent" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.longl.zk.dubbo.Client" />
+      <module name="zookeeper-dubbo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.longl.zk.dubbo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.longl.zk.dubbo.Server" />
+      <module name="zookeeper-dubbo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.longl.zk.dubbo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -167,26 +260,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ServerBootUpTest" />
       <option name="METHOD_NAME" value="main" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ZkClientTest1.deleteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="zookeeper-client" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ZkClientTest1" />
-      <option name="METHOD_NAME" value="deleteTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ZkClientTest1.readTestZkClient" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="zookeeper-client" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ZkClientTest1" />
-      <option name="METHOD_NAME" value="readTestZkClient" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -204,11 +277,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Server" />
         <item itemvalue="JUnit.ServerBootUpTest.main" />
         <item itemvalue="Application.Agent" />
         <item itemvalue="JUnit.ZkClientTest1.watcherTest" />
-        <item itemvalue="JUnit.ZkClientTest1.readTestZkClient" />
-        <item itemvalue="JUnit.ZkClientTest1.deleteTest" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +299,8 @@
       <workItem from="1644503294510" duration="1757000" />
       <workItem from="1644506101103" duration="2133000" />
       <workItem from="1644726059416" duration="10549000" />
-      <workItem from="1644739488671" duration="2641000" />
+      <workItem from="1644739488671" duration="5511000" />
+      <workItem from="1644745197386" duration="1285000" />
     </task>
     <task id="LOCAL-00001" summary="feat:测试应用zkClient">
       <created>1644733230810</created>
@@ -235,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644733230810</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat:测试应用agent">
+      <created>1644742199798</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1644742199798</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -271,12 +352,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30606000" />
+    <option name="totallyTimeSpent" value="34761000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32461435" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3293092" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -286,17 +367,17 @@
       <window_info anchor="bottom" id="Spring" order="0" weight="0.3286119" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49966466" visible="true" weight="0.38243628" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49966466" visible="true" weight="0.38243628" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.37252125" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50033534" side_tool="true" visible="true" weight="0.38243628" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50033534" side_tool="true" weight="0.38243628" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" weight="0.3323782" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.33144477" />
       <window_info anchor="bottom" id="Tail" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -389,7 +470,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat:测试应用zkClient" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:测试应用zkClient" />
+    <MESSAGE value="feat:测试应用agent" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:测试应用agent" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://D:/Program Files/Java/jdk1.8.0_181/jre/lib/rt.jar!/sun/misc/Unsafe.class">
@@ -590,16 +672,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zookeeper-client/src/test/java/ZkClientTest1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="16" selection-start-line="16" selection-end-line="16" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zookeeper-agent/src/main/java/com/longl/CPUMonitorCalc.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -626,16 +698,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/zookeeper-web/src/main/java/MainControl.java" />
     <entry file="file://$PROJECT_DIR$/zookeeper-web/src/main/java/ZookeeperWebApplication.java" />
-    <entry file="file://$PROJECT_DIR$/zookeeper-web/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zookeeper-web/src/main/java/com/longl/web/controller/MainControl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/zookeeper-web/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/zookeeper-web/src/main/java/com/longl/web/controller/MainControl.java" />
     <entry file="file://$PROJECT_DIR$/zookeeper-client/src/test/java/ServerBootUpTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -646,31 +710,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zookeeper-web/src/main/java/com/longl/web/ZookeeperWebApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#108#109#0" expanded="true" />
-            <element signature="e#182#183#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zookeeper-client/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zookeeper-web/src/main/java/com.longl/ZookeeperWebApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/zookeeper-web/src/main/java/com/longl/web/ZookeeperWebApplication.java" />
+    <entry file="file://$PROJECT_DIR$/zookeeper-web/src/main/java/com.longl/ZookeeperWebApplication.java" />
     <entry file="file://$PROJECT_DIR$/zookeeper-client/src/main/java/ZooKeeper_Usage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -685,13 +726,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="7" column="33" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -716,6 +750,91 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
           <caret line="48" column="19" lean-forward="true" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/LocalJar/com/alibaba/dubbo/2.6.5/dubbo-2.6.5.jar!/com/alibaba/dubbo/config/RegistryConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="e#1082#1083#0" expanded="true" />
+            <element signature="e#1122#1123#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zookeeper-dubbo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zookeeper-dubbo/src/main/java/com/longl/zk/dubbo/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zookeeper-dubbo/src/main/java/com/longl/zk/dubbo/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zookeeper-client/src/test/java/ZkClientTest1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="20" column="83" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zookeeper-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zookeeper-dubbo/src/main/java/com/longl/zk/dubbo/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zookeeper-dubbo/src/main/java/com/longl/zk/dubbo/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zookeeper-dubbo/src/main/java/com/longl/zk/dubbo/UserVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
